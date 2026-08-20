@@ -56,23 +56,28 @@ the system to add an entry for the terminal, then you can enable it.
 
 ## Sound packs
 
-Six packs are bundled, switchable live from the dropdown while typing.
+Seven packs are bundled, switchable live from the dropdown while typing.
 Default is **Clicky**.
 
-| Pack | Character |
-|---|---|
-| Poppy | Short, rounded, bubbly pop |
-| Clicky | Sharp, bright, classic click transient |
-| Creamy | Smooth, muted, buttery — no hard attack |
-| Clacky | Hard, punchy clack with a knock overtone |
-| Marbly | Glassy, resonant ring |
-| Thocky | Deep, low-pitched, warm resonance |
+| Pack | Character | Source |
+|---|---|---|
+| Poppy | Short, rounded, bubbly pop | Synthesized |
+| Clicky | Sharp, bright, classic click transient | Synthesized |
+| Creamy | Smooth, muted, buttery — no hard attack | Synthesized |
+| Clacky | Hard, punchy clack with a knock overtone | Synthesized |
+| Marbly | Glassy, resonant ring | Synthesized |
+| Thocky | Deep, low-pitched, warm resonance | Synthesized |
+| Cherry MX Black | Real linear-switch recording | [Mechvibes](https://mechvibes.com/sound-packs/sound-pack-1200000000001/) (MIT) |
 
-All six are procedurally synthesized (decaying tone + noise, shaped per
-pack), not recordings — real keyboard-click recordings from stock sound
-sites generally forbid redistributing the raw file itself, which is what a
-sound pack is, so synthesis sidesteps that entirely. Swap in your own
-recording any time by following "Adding a sound pack" below.
+Six are procedurally synthesized (decaying tone + noise, shaped per pack) —
+real keyboard-click recordings from stock sound sites generally forbid
+redistributing the raw file itself, which is what a sound pack is, so
+synthesis sidesteps that entirely for those six. Cherry MX Black is a real
+recording, sourced from one of Mechvibes' own first-party MIT-licensed
+default packs (safe to redistribute); see
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the full attribution.
+Swap in your own recording any time by following "Adding a sound pack"
+below.
 
 ## Adding a sound pack
 
