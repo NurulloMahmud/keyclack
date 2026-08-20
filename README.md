@@ -56,20 +56,19 @@ the system to add an entry for the terminal, then you can enable it.
 
 ## Sound packs
 
-Eight packs are bundled, switchable live from the dropdown while typing:
+Six packs are bundled, switchable live from the dropdown while typing.
+Default is **Clicky**.
 
 | Pack | Character |
 |---|---|
-| Cherry MX Blue | Classic sharp clicky switch |
-| Topre | Soft capacitive thock |
-| Tactile Brown | Muted tactile bump, no click |
-| Pop | Short, rounded, bubbly pop |
-| Thock | Deep, low-pitched, resonant |
-| Clicky White | Loud, bright, high-pitched click |
-| Silent Linear | Very quiet muted thump |
-| Typewriter | Metallic, percussive clack |
+| Poppy | Short, rounded, bubbly pop |
+| Clicky | Sharp, bright, classic click transient |
+| Creamy | Smooth, muted, buttery — no hard attack |
+| Clacky | Hard, punchy clack with a knock overtone |
+| Marbly | Glassy, resonant ring |
+| Thocky | Deep, low-pitched, warm resonance |
 
-All eight are procedurally synthesized (decaying tone + noise, shaped per
+All six are procedurally synthesized (decaying tone + noise, shaped per
 pack), not recordings — real keyboard-click recordings from stock sound
 sites generally forbid redistributing the raw file itself, which is what a
 sound pack is, so synthesis sidesteps that entirely. Swap in your own

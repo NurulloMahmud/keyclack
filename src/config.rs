@@ -16,7 +16,7 @@ pub struct Config {
 impl Default for Config {
     fn default() -> Self {
         Self {
-            pack_id: "cherry-mx-blue".to_string(),
+            pack_id: "clicky".to_string(),
             volume: 0.6,
             muted: false,
             start_on_login: false,
@@ -81,7 +81,7 @@ mod tests {
     #[test]
     fn default_values() {
         let c = Config::default();
-        assert_eq!(c.pack_id, "cherry-mx-blue");
+        assert_eq!(c.pack_id, "clicky");
         assert_eq!(c.volume, 0.6);
         assert_eq!(c.muted, false);
         assert_eq!(c.start_on_login, false);
