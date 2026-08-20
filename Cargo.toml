@@ -1,0 +1,24 @@
+[package]
+name = "keyclack"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.28"
+egui = "0.28"
+cpal = "0.15"
+hound = "3.5"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+directories = "5"
+crossbeam-channel = "0.5"
+global-hotkey = "0.5"
+log = "0.4"
+env_logger = "0.11"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+core-graphics = "0.23"
+core-foundation = "0.9"
+
+[profile.release]
+opt-level = 3
