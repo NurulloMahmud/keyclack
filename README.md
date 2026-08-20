@@ -54,6 +54,27 @@ to `keyclack`:
 If the toggle isn't there yet, run `keyclack` once first — it will prompt
 the system to add an entry for the terminal, then you can enable it.
 
+## Sound packs
+
+Eight packs are bundled, switchable live from the dropdown while typing:
+
+| Pack | Character |
+|---|---|
+| Cherry MX Blue | Classic sharp clicky switch |
+| Topre | Soft capacitive thock |
+| Tactile Brown | Muted tactile bump, no click |
+| Pop | Short, rounded, bubbly pop |
+| Thock | Deep, low-pitched, resonant |
+| Clicky White | Loud, bright, high-pitched click |
+| Silent Linear | Very quiet muted thump |
+| Typewriter | Metallic, percussive clack |
+
+All eight are procedurally synthesized (decaying tone + noise, shaped per
+pack), not recordings — real keyboard-click recordings from stock sound
+sites generally forbid redistributing the raw file itself, which is what a
+sound pack is, so synthesis sidesteps that entirely. Swap in your own
+recording any time by following "Adding a sound pack" below.
+
 ## Adding a sound pack
 
 Create a new directory under `assets/packs/`:
